@@ -11,7 +11,7 @@ font-family: Helvetica;}
 background-color: #feca07;
 padding: auto;}
 
-.itemd {background-color: blue;
+.itemd {background-color: white;
   width: 100%;
 }
 .photo {width: 56%;
@@ -157,6 +157,7 @@ font-weight: normal;
 margin-top: 15px;}
 .list {margin-right: 10%;}
 .lasttt {text-transform: uppercase;}
+@media all and (max-width: 1920px) {.list {margin-bottom: 100px;}}
 @media all and (max-width: 1642px) {
 	.last {grid-template-columns: 300px 55%;}
 	}
@@ -174,6 +175,7 @@ margin-left: 250px;	}
 }
 @media all and (max-width: 1196px) { dd {
 margin-left: 220px;}
+body {margin-right: 37%;}
 }
 @media all and (max-width: 1132px) { dd {
 margin-left: 200px;}
@@ -196,9 +198,17 @@ margin-left: 150px;}
 @media all and (max-width: 955px) { .working {
 	letter-spacing: 0px;
 	font-size: 20px;}
+	body {margin-right: 20%;}
+	.container {border-style: solid;
+	border-color: white;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 250px; }
 }
 @media all and (max-width: 515px) {.container {display: block;
-}
+border-style: none;}
+
 body {margin-right: 18%;}
 .batrider {padding-left: 0;
 	letter-spacing: 10px;
@@ -221,6 +231,7 @@ font-size: 15px;}
 body {margin-right: 17%;}
 .hello {margin-left: 0px;}
 .working {font-size: 12px;}
+.list {margin-bottom: 0px;}
 }
 @media all and (max-width: 375px) {.container {display: block;
 }
@@ -234,6 +245,7 @@ dd {margin-left: 30px;}
 .department {margin-left: -90px;}
 .luna {font-size: 13px;}
 .herald {font-size: 13px;}
+.list {margin-bottom: 0px;}
 }
 @media all and (max-width: 360px) {.container {display: block;
 }
@@ -245,6 +257,8 @@ dd {margin-left: 35px;}
 .working {letter-spacing: 0.5px;}
 .hello {text-align: center;}
 .department {margin-left: 0px;}
+.list {margin-bottom: 0px;}
+.economy {margin-left: 0px;}
 }
 @media all and (max-width: 320px) {.container {display: block;
 }
@@ -256,6 +270,8 @@ body {margin-right: 19%;}
 dd {margin-left: 35px;}
 .general {margin-left: 0px;}
 .working {letter-spacing: 0.5px;}
+.economy {margin-left: 0px;}
+.list {margin-bottom: 0px;}
 }
 @media all and (max-width: 200px) {.container {display: block;
 }
