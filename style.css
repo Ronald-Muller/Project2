@@ -11,7 +11,7 @@ font-family: Helvetica;}
 background-color: #feca07;
 padding: auto;}
 
-.itemd {background-color: white;
+.itemd {background-color: blue;
   width: 100%;
 }
 .photo {width: 56%;
@@ -160,7 +160,11 @@ margin-top: 15px;}
 @media all and (max-width: 1642px) {
 	.last {grid-template-columns: 300px 55%;}
 	}
-
+@media all and (max-width: 1627px) {
+	.batrider {padding-left: 40%;
+	letter-spacing: 150px;
+	font-size: 75px;}
+	}
 @media all and (max-width: 1382px) {
 	.last {
 		grid-template-columns: 50% 50%;}
@@ -177,6 +181,83 @@ margin-left: 200px;}
 @media all and (max-width: 1077px) { dd {
 margin-left: 150px;}
 }
-@media all and (max-width: 450px) { .working {
+@media all and (max-width: 1055px) { .email {
+	letter-spacing: 0.5px;}
+}
+@media all and (max-width: 996px) { .luna {
+	letter-spacing: -1px;}
+	.herald {
+		letter-spacing: -1px;
+	}
+}
+@media all and (max-width: 984px) { .email {
+	letter-spacing: 0px;}
+}
+@media all and (max-width: 955px) { .working {
+	letter-spacing: 0px;
+	font-size: 20px;}
+}
+@media all and (max-width: 515px) {.container {display: block;
+}
+body {margin-right: 18%;}
+.batrider {padding-left: 0;
+	letter-spacing: 10px;
+	font-size: 75px;}
+	.working {
+letter-spacing: -1px;
 font-size: 15px;}
+.itemd {margin-top: -45px;}
+.contactd {margin-top: 10px;}
+.bane {margin-bottom: 10px;}
+.axe {text-align: center;}
+}
+@media all and (max-width: 509px) {.ups {letter-spacing: -7px;}
+}
+@media all and (max-width: 450px) {.working {letter-spacing: -2.5px;}
+.general {margin-left: -80px;}
+}
+@media all and (max-width: 414px) {.container {display: block;
+}
+body {margin-right: 17%;}
+.hello {margin-left: 0px;}
+.working {font-size: 12px;}
+}
+@media all and (max-width: 375px) {.container {display: block;
+}
+body {margin-right: 18%;}
+.hello {font-size: 50px;
+text-align: center;}
+dd {margin-left: 30px;}
+.general {margin-left: 0px;}
+.working {letter-spacing: 0.5px;}
+.economy {margin-left: 100px;}
+.department {margin-left: -90px;}
+.luna {font-size: 13px;}
+.herald {font-size: 13px;}
+}
+@media all and (max-width: 360px) {.container {display: block;
+}
+body {margin-right: 19%;}
+.luna {font-size: 12px;}
+.herald {font-size: 12px;}
+dd {margin-left: 35px;}
+.general {margin-left: 0px;}
+.working {letter-spacing: 0.5px;}
+.hello {text-align: center;}
+.department {margin-left: 0px;}
+}
+@media all and (max-width: 320px) {.container {display: block;
+}
+body {margin-right: 19%;}
+.hello {text-align: center;}
+.general {font-size: 12px;}
+.luna {font-size: 12px;}
+.herald {font-size: 12px;}
+dd {margin-left: 35px;}
+.general {margin-left: 0px;}
+.working {letter-spacing: 0.5px;}
+}
+@media all and (max-width: 200px) {.container {display: block;
+}
+body {margin-right: -115%;}
 }
